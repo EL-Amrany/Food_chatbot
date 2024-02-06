@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from chat import get_response
-
+import nltk
 import numpy as np
 import random
 import json
