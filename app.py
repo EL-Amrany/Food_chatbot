@@ -12,6 +12,7 @@ from torch.utils.data import Dataset, DataLoader
 from nltk_utils import bag_of_words, tokenize, stem
 import torch
 import torch.nn as nn
+nltk.download('punkt')
 
 
 class NeuralNet(nn.Module):
